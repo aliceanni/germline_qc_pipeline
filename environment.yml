@@ -1,0 +1,15 @@
+name: germline-qc
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - plink2
+  - bcftools
+  - r-base=4.3
+  - r-tidyverse
+  - r-ggplot2
+  - pip:
+      - pandas>=2.0
+      - numpy

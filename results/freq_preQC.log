@@ -1,0 +1,22 @@
+PLINK v2.00a6 AVX2 (23 Nov 2023)
+Options in effect:
+  --freq
+  --out results/freq_preQC
+  --pfile data/chr17_raw
+
+Hostname: LAPTOP-BJI1DBN8
+Working directory: /home/alice/bioinformatics_data/germline_qc_pipeline
+Start time: Wed Apr  8 10:52:55 2026
+
+Random number seed: 1775638375
+3597 MiB RAM detected, ~3158 available; reserving 1798 MiB for main workspace.
+Using up to 12 threads (change this with --threads).
+2504 samples (0 females, 0 males, 2504 ambiguous; 2504 founders) loaded from
+data/chr17_raw.psam.
+2329288 variants loaded from data/chr17_raw.pvar.
+Note: No phenotype data present.
+Calculating allele frequencies... done.
+--freq: Allele frequencies (founders only) written to results/freq_preQC.afreq
+.
+
+End time: Wed Apr  8 10:52:59 2026

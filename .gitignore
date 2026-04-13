@@ -1,0 +1,27 @@
+# File genomici grandi
+*.vcf
+*.vcf.gz
+*.vcf.gz.tbi
+*.pgen
+*.psam
+*.pvar
+*.bed
+*.bim
+*.fam
+data/raw/
+
+# File intermedi PLINK2
+*.prune.out
+*.afreq
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Log e tmp
+logs/
+tmp/
+.DS_Store
